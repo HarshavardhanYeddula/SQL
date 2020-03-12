@@ -1,0 +1,37 @@
+ CREATE DATABASE School DEFAULT Character SET utf8;
+ 
+ USE School;
+ 
+ 
+ CREATE TABLE Student(
+ STUDENT_ID   INT,
+ STUDEND_FIRST_NAME  varchar(50),
+ STUDENT_LAST_NAME   VARCHAR(50)
+ );
+
+
+INSERT INTO Student
+VALUES(1000,'ANNAPURNA','BANDU');
+
+
+
+INSERT INTO Student
+VALUES(100,'NEHA','POTTI');
+
+
+
+INSERT INTO Student
+VALUES(2000,'UHA','ANDU');
+
+
+
+
+INSERT INTO Student
+VALUES(3000,'PURNA','B');
+
+
+
+SELECT * FROM Student;
+
+
+DROP TABLE Student;
